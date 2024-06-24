@@ -3,8 +3,8 @@
     --scolor:#439182;
     --accent-color:#cfcfcf;
     --hover-accent:#fff;
-    --f-s-s :16px;
-    --f-s-b :24px;
+    --f-s-s :1.2rem;
+    --f-s-b :2.4rem;
     --f-f-t :'Cabinet Grotesk';
     --f-f-b :'Satoshi';
     --f-w-b :700;
@@ -35,19 +35,25 @@ body{
 .btn-clear{
     border: 1px solid #000;
 }
-.btn-coloured{
+.btn-cta{
     background-color: var(--pcolor);
 }
 .link{
     padding: 0.8rem 2.4rem; 
     display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-align: start;
 }
 .header{
     height: 120vh;
 }
 .hero{
     background: url('Rectangle 1.png') no-repeat center center/cover;
+    color: #fff;
     height: 80%;
+    padding: 3rem;
+    
 }
 .navbar{
     display: flex;
@@ -75,4 +81,70 @@ body{
     /* position: relative;
     width: auto;
     padding-bottom: 0.7rem; */
+}
+.hero-item{
+    margin-top: 30%;
+    display: flex;
+    justify-content: space-between;
+    height: 16em;
+}
+
+.hero-header{
+    font-size: 4rem;
+    font-weight: var(--f-w-b);
+    align-self: flex-start;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-self: flex-end;
+}
+.s-c-title{
+    font-size: var(--f-s-b);
+    font-weight: var(--f-w-b);
+}
+.s-c-text{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: var(--f-s-s);
+    font-weight: var(--f-w-r);
+}
+.columns{
+    display: flex;
+}
+.column{
+    background-color: var(--scolor);
+    color: #fff;
+    padding: 3.4rem;
+}
+.column-cta{
+    background-color: var(--pcolor);
+    color: #292929;
+}
+.column-cta > a{
+    color: #292929;
+}
+.link
+.blogs{
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.blog{
+    background: url('Rectangle 11.png') no-repeat center center/cover;
+}
+.blog{
+    background: url('Rectangle 12.png') no-repeat center center/cover;
+}
+
+
+
+
+
+
+.footer{
+    background-color: #191a27;
+    color: #868686;
 }
