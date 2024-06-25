@@ -1,12 +1,13 @@
 :root{
     --pcolor:#FCCC53;
     --scolor:#439182;
-    --accent-color:#cfcfcf;
+    --accent-color:#4d4d4d;
     --hover-accent:#fff;
-    --f-s-s :1.2rem;
-    --f-s-b :2.4rem;
-    --f-f-t :'Cabinet Grotesk';
-    --f-f-b :'Satoshi';
+    --f-s-s :1.3rem;
+    --f-s-m :1.6rem;
+    --f-s-b :2.8rem;
+    --f-f-t :'Cabinet Grotesk',sans-serif;
+    --f-f-b :'Satoshi',sans-serif;
     --f-w-b :700;
     --f-w-r :400;
     /* line-height: 30px;
@@ -19,7 +20,7 @@
     padding: 0;
 }
 body{
-    font-style: normal;
+    font-family: var(--f-f-t);
     
 }
 /* utilities */
@@ -38,15 +39,15 @@ body{
 .btn-cta{
     background-color: var(--pcolor);
 }
-.link{
-    padding: 0.8rem 2.4rem; 
+.link{ 
+    margin-top: 2em;
     display: inline-block;
     color: #fff;
-    font-weight: 500;
-    text-align: start;
+    font-weight: 600;
+    font-size: calc(var(--f-s-m) - 5px);
 }
 .header{
-    height: 120vh;
+    height: 150vh;
 }
 .hero{
     background: url('Rectangle 1.png') no-repeat center center/cover;
@@ -107,7 +108,7 @@ body{
 .s-c-text{
     margin-top: 1rem;
     text-align: center;
-    font-size: var(--f-s-s);
+    font-size: var(--f-s-m);
     font-weight: var(--f-w-r);
 }
 .columns{
@@ -115,17 +116,20 @@ body{
 }
 .column{
     background-color: var(--scolor);
+    font-size: var(--f-s-m);
     color: #fff;
-    padding: 3.4rem;
+    padding: 3.6em 4.6em;
+    min-height: calc(16.2rem + 20px);
+    width: 100%;
 }
 .column-cta{
     background-color: var(--pcolor);
-    color: #292929;
+    color: var(--accent-color);
 }
 .column-cta > a{
-    color: #292929;
+    color: var(--accent-color);
 }
-.link
+
 .blogs{
     display: flex;
     margin-left: 0;
@@ -138,9 +142,44 @@ body{
 .blog{
     background: url('Rectangle 12.png') no-repeat center center/cover;
 }
+main{
+    margin-top:8rem;
+}
 
+.sct-txt{
+    text-align: center;
+}
+.section-header{
+    font-size: 3.4rem;
+    width: 40%;
+    margin:3rem auto;
+    font-weight: 600;
+    color: #292929;
 
-
+}
+.section-text{
+    font-size: var(--f-s-s);
+    color: var(--accent-color);
+}
+.dropdown{
+    width: 65%;
+    margin: 4rem auto;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #000;
+    
+}
+.tab{
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    color: var(--accent-color);
+}
+.title{
+    font-weight: 600;
+}
 
 
 
