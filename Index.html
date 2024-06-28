@@ -77,7 +77,7 @@
             </p>
             <div class="dropdown">
                 <div class="tab t-one">
-                   <div class="tab-one-item">
+                   <div class="tab-item">
                     <p class="title">
                         Continent
                     </p>
@@ -88,7 +88,7 @@
                    <a href="#"><img src="#" alt="dropdown"></a>
                 </div>
                 <div class="tab t-two">
-                   <div class="tab-one-item">
+                   <div class="tab-item">
                     <p class="title">
                         Country
                     </p>
@@ -99,7 +99,7 @@
                    <a href="#"><img src="#" alt="dropdown"></a>
                 </div>
                 <div class="tab t-three">
-                   <div class="tab-one-item">
+                   <div class="tab-item">
                     <p class="title">
                         Cause
                     </p>
@@ -116,38 +116,53 @@
         </section>
         <section class="two">
             <section class="row-one">
-                <img src="Rectangle 6.png" alt="Happy-children">
+                <img src="Rectangle 6.png" alt="Happy-children" class="row-img">
                 <div class="row-content">
-                    <p class="row-header">
+                    <p class="row-header thinner row-txt">
                         With your help, we effectively make impact.
                     </p>
-                    <p class="row-text">
+                    <p class="row-text row-txt">
                         Our mission is to provide aid and support for those in need by utilizing resources,v olunteers and donations. We seek to improve the lives of Individuals Through providing basic needs such as food, shelter, clothing, education and medical care. Additionally we help build sustainable communities and advocate for social injustice issues. 
                     </p>
                     <a href="#" class="btn btn-clear">Learn about the Foundation</a>
                 </div>
             </section>
 
-        </section>
-            <section class="row-two">
+       
+            <section class="row-one">
                 <div class="row-content">
-                    <p class="row-header">
+                    <p class="row-header row-txt">
                        Join our live campaigns across the planet.
                     </p>
-                    <p class="row-text">
-                        We have funded 2000+ food projects for 400K+ children around the world.We are committed to changing our world with your own little efforts.
+                    <p class="row-text row-txt thinner">
+                        We have funded  2000+  food projects for  400K+  children around the world.  We are committed to changing our world with your own little efforts.
                     </p>
 
-                    <ul>
-                        <li><img src="Tick.png" alt="">Food Campaigns</li>
-                        <li><img src="Tick.png" alt="">Hygienic Water Movement </li>
-                        <li><img src="Tick.png" alt="">Affordable education</li>
-
+                    <ul class="row-list">
+                        <li>
+                            <img src="Tick.png" alt="">
+                        <p class="row-list-text">
+                            Food Campaigns
+                        </p>    
+                        </li>
+                        <li>
+                            <img src="Tick.png" alt="">
+                        <p class="row-list-text">
+                            Hygienic Water Movement
+                        </p>    
+                        </li>
+                        <li>
+                            <img src="Tick.png" alt="">
+                        <p class="row-list-text">
+                            Affordable education
+                        </p>    
+                        </li>
                     </ul>
                     <a href="#" class="btn btn-clear">Check our live Campaigns</a>
                 </div>
-                <img src="Group 82.png" alt="Happy-children">
+                <img src="Group 82.png" alt="Happy-children" class="row-img">
             </section>
+        </section>    
             <section class="three">
                 <p class="section-header sct-txt">
                     Accredited charity organisations part of our cause.
@@ -155,38 +170,40 @@
                 <p class="section-text sct-txt">
                    Looking for visibility as a charity organisation.? Get accredited. </p>
                 <div class="partners">
-                    <img src="Partner one.jpg" alt="" class="partner">
-                    <img src="Partner two.jpg" alt="" class="partner">
-                    <img src="Partner three.jpg" alt="" class="partner">
                     <img src="Partner Four.jpg" alt="" class="partner">
+                    <img src="Partner three.jpg" alt="" class="partner">
+                    <img src="Partner two.jpg" alt="" class="partner">
                     <img src="Partner five.jpg" alt="" class="partner">
+                    <img src="Partner one.jpg" alt="" class="partner">
                 </div>
                 <a href="#" class="btn btn-cta">Get accredited </a>
             </section>
         <section class="blogs">
-            <div class="blog">
-                <p class="blog-sub-header">
-                    News
-                </p>
-                <p class="blog-header">
-                    A Dollar in the right place goes a long way 
-                </p>
-                <p class="blog-text">
-                    In Namibia and other countries in Africa lives are being lost in the worst food crisis in decades . A dollar could be their only hope in such crisis
-                </p>
-                <a href="#" class="link">Donate Now</a>
+            <div class="blog blog-one">
+                <div class="blogcontent">
+                    <p class="blog-sub-header">
+                       news
+                    </p>
+                    <p class="blog-header">
+                        A Dollar in the Right Place Goes a Long Way 
+                    </p>
+                    <p class="blog-text">
+                        In Namibia and other countries in Africa lives are being lost in the worst food crisis in decades . A dollar could be their only hope in such crisis
+                    </p>
+                    <a href="#" class="link">Donate Now</a>
+                </div>
             </div>
-            <div class="blog">
-                <p class="blog-sub-header">
+            <div class="blog blog-two">
+                <div class="blogcontent"><p class="blog-sub-header">
                     blog
                 </p>
                 <p class="blog-header">
-                   Little twilight Angels of christmas. 
+                   Little Twilight Angels of Christmas. 
                 </p>
                 <p class="blog-text">
                     It is that time of the year again when we build hope and put smiles on the little angels of christmas.
                 </p>
-                <a href="#" class="link">Read more</a>
+                <a href="#" class="link">Read more</a></div>
             </div>
         </section>
     </main>
@@ -197,34 +214,60 @@
             </p>
             <p class="section-text sct-txt">
                Keep track on all our activities and partners who cause change around the world. </p>
-
-             <input type="email" name="Your email address" id="email">  
-             <a href="#" class="btn btn-cta newslet-btn">Subcribe</a>
+            <div class="email-container">
+                <input type="email" placeholder="Your email address" id="email">  
+                        <a href="#" class="btn btn-cta newslet-btn">Subcribe</a>
+            </div>
+             
         </section>
         <section class="footer">
-            <section class="side-footer">
-                <img src="logo.png" alt="Logo" class="Logo">
-                <p class="side-footer-txt">
-                    Making tremendous impact with our little effort
-                </p>
-                <div class="contacts">
-                    <div class="contact">
-                        <img src="Icon.png" alt="" class="icon">
-                        <p class="email">bemnadfoundation@gmail.com</p>
+            <section class="top-footer">
+                <section class="side-footer">
+                    <img src="logo.png" alt="Logo" class="Logo">
+                    <p class="side-footer-txt">
+                        Making tremendous impact with our little effort
+                    </p>
+                    <div class="contacts">
+                        <div class="contact">
+                            <img src="Icon.png" alt="" class="icon">
+                            <p class="email">bemnadfoundation@gmail.com</p>
+                        </div>
+                        <div class="contact">
+                            <img src="mobile.png" alt="" class="icon">
+                            <p class="phone">+122 (003) 9784
+                            </p>
+                        </div>
                     </div>
-                    <div class="contact">
-                        <img src="mobile.png" alt="" class="icon">
-                        <p class="phone">+122 (003) 9784
-                        </p>
+                </section>
+                <section class="footer-links">
+                    <div class="company-links">
+                        <p class="c-l-header">Company</p>
+                        <p class="c-l-text">Our Story</p>
+                        <p class="c-l-text">The Foundation</p>
+                        <p class="c-l-text">Partner</p>
                     </div>
-                </div>
+                    <div class="company-links">
+                        <p class="c-l-header">Services</p>
+                        <p class="c-l-text">Donation</p>
+                        <p class="c-l-text">Accredition</p>
+                        <p class="c-l-text">Charity givings</p>
+                    </div>
+                    <div class="company-links">
+                        <p class="c-l-header">Legal</p>
+                        <p class="c-l-text">Terms of Services</p>
+                        <p class="c-l-text">Privacy Policies</p>
+                        <p class="c-l-text">License</p>
+                    </div>
+                </section>
             </section>
-            <section class="footer-links">
-                <div class="company-links">
-                    <p class="c-l-header">Company</p>
-                    <p class="c-l-text">Our Story</p>
-                    <p class="c-l-text">The Foundation</p>
-                    <p class="c-l-text">Partner</p>
+            <section class="bottom-footer">
+                <p class="copyright">
+                    Copyright@TheBemnadFoundation2022
+                </p>
+                <div class="social-links">
+                    <img src="" alt="Linkedin">
+                    <img src="" alt="twitter">
+                    <img src="" alt="instagram">
                 </div>
             </section>
         </section>
