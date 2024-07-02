@@ -511,3 +511,17 @@ width: 100%;
     color: #868686;
   
 }
+.f-hero{
+    background-color: var(--scolor);
+    min-height:60vh ;
+}
+.f-navbar{
+    border-bottom: 1px solid #ffffff;
+}
+a.f-navlink{
+    color: #ffffff;
+}
+p.f-hero-text{
+    
+    color: #000;
+}
