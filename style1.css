@@ -439,6 +439,7 @@ a.e-navlink{
 }
 .e-hero-head{
     display: flex;
+    justify-content: space-between;
     gap: 12%;
     margin-top: 12rem;
     height: 25rem;
@@ -462,13 +463,16 @@ width: 100%;
 .main-one{
     display: flex;
     justify-content: space-between;
-    width: 68%;
-    margin: 7em auto;
+    gap: 10%;
+    margin-top: 12rem;
+    height: 25rem;
+    padding:1em 10em; 
 }
 .main-one-header{
         font-size: 4rem;
         color: #363636; 
         font-weight: 600;
+        width: 40%;
 }
 .main-one-texts{
     width:29.125rem;
@@ -521,7 +525,27 @@ width: 100%;
 a.f-navlink{
     color: #ffffff;
 }
-p.f-hero-text{
-    
-    color: #000;
+.core-values{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10rem;
+    padding: 10rem;
+}
+.values{
+    border: 1px solid #4151da;
+    min-height: 24rem;
+   
+
+}
+.value{
+    position: relative;
+    z-index: 3;
+    margin:1em 3em;
+}
+.serial{
+    position: absolute;
+    z-index: 2;
+
+
 }
