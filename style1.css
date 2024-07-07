@@ -712,4 +712,8 @@ a.f-navlink{
     font-family: var(--f-f-l);
     font-weight: 600;
 }
-
+.e-e-hero{
+        background-color: var(--pcolor);
+        min-height:60vh ;
+    
+}
